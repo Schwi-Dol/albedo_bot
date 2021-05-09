@@ -1,18 +1,8 @@
 /******************************************************
- * Discord Bot Maker Bot
- * Version 1.6.8
- * Robert Borghese
+ * Bot Discord Project
+ * Version 2.5.7
+ * Schwi-Dol
  ******************************************************/
-
-const DBM = {};
-DBM.version = "1.6.8";
-
-const DiscordJS = DBM.DiscordJS = require("discord.js");
-
-if(DiscordJS.version < "12.0.0") {
-	console.log("This version of Discord Bot Maker requires Discord.JS v12.\nPlease use \"Project > Module Manager\" and \"Project > Reinstall Node Modules\" to update to Discord.JS v12.");
-	throw new Error("Need Discord.JS v12 to Run!!!");
-}
 
 //---------------------------------------------------------------------
 // Bot
